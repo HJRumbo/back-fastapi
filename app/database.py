@@ -7,7 +7,7 @@ USER_DB = "root"
 PASSWORD_DB = "root"
 NAME_DB = "pulsaciones"
 
-DATABASE_URL = f"postgresql://{USER_DB}:{PASSWORD_DB}@localhost/{NAME_DB}"
+DATABASE_URL = f"postgresql://{USER_DB}:{PASSWORD_DB}@postgres-db/{NAME_DB}"
 
 engine = _sql.create_engine(DATABASE_URL) 
 
